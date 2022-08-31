@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head {
+  background-color: white;
+  padding: 10px;
+}
+
+.title {
+  vertical-align: middle;
+  height: 50px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.logo {
+  vertical-align: middle;
+  line-height: 3em;
+}
+
+.page {
+  width: 60%;
+  height: 500px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.buttons {
+  padding: 10px;
+  padding-left: 30px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.task-button {
+  color: white;
+  background-color: rgb(44, 172, 252);
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid rgb(44, 172, 252);
+  font-size: 10px;
+  margin-right: 4px;
+  width: 75px;
+}
+
+.section-button {
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 10px;
+  color: grey;
+  width: 75px;
+}
+
+.ceckhing-list {
+  padding: 30px;
+}
+
+.ceckhing-list1 {
+  padding: 18px;
+}
+
+.list {
+  margin-bottom: 30px;
+}
+
+.task-list {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.list-element {
+  margin-top: 8px;
+}
+.editor {
+  background-color: rgb(44, 172, 252);
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.editor-violet {
+  background-color: violet;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.editor-green {
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.editor-orange {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.editor-pink {
+  background-color: palevioletred;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.editor-lemon {
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.check-mark {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 1px solid green;
+  text-align: center;
+  color: green;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.check-mark-x {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 1px solid red;
+  text-align: center;
+  color: red;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
